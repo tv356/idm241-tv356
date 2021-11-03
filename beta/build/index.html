@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Beta Assignment</title>
+      <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+      <!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+      <meta charset="utf-8">
+      <title>Beta Assignment</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <div class="main">
+
+            <div class="content">
+                  <h1>BETA PROJECT</h1>
+
+           <h3>TRIGGERS</h3>
+           <p>Users click on the "I am not a robot" button</p>
+
+           <h3>RULES</h3>
+           <p>The microinteraction can only be seen when users click the button.</p>
+
+           <h3>FEEDBACK</h3>
+           <p>When users click the button, the button's background change from black to white color and the text changes from white to black color.
+           <br>Then, a pop-up box shows up in the center, placing on top of the content box.
+           <br>The pop-up shows a grid of 9 images, users can click the "Dismiss" button to return. </p>
+
+                                               
+           <h3>LOOPS</h3>
+           <p>There are no loops in this microinteraction.</p>
+
+            <!-- img & button -->
+            <div class="btn">
+                  
+               
+                  
+                  <div class="captcha">
+                        <div class="spinner">
+                              <label>
+                                    <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                                    <span class="checkmark"><span>&nbsp;</span></span>
+                              </label>
+                        </div>
+                        <div class="logo">
+                              <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/"/>
+                              <p>Click to Verify</p>
+                              <small>reCAPTCHA</small>
+                        </div>
+                  </div>
+                  <button id="open-popup-btn">
+                        I am not a robot!
+                  </button>
+                  
+                  
+                  
+            </div>
+
+            <!-- YT sửa lại nối dung chỗ này nha -->
+
+
+      
+            </div>
+            
+      </div>
+      
+      <div class="popup center">
+            <div class="title">
+                  Select all images with <span> "Food"</span>
+            </div>
+            <!--<div class="description">
+
+                  <div class="wrapper">
+                        <div class="cols">
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="background-image: url(https://unsplash.it/500/500/)">
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="url(https://unsplash.it/511/511/)">
+                                                          <div class="inner">
+                                                                <p>Rocogged</p>
+                                    <span>Lorem ipsum</span>
+                                                          </div>
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="background-image: url(https://unsplash.it/502/502/)">
+                                                          <div class="inner">
+                                                                <p>Strizzes</p>
+                                    <span>Lorem ipsum</span>
+                                                          </div>
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="background-image: url(https://unsplash.it/503/503/)">
+                                                          <div class="inner">
+                                                                <p>Clossyo</p>
+                                    <span>Lorem ipsum</span>
+                                                          </div>
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="background-image: url(https://unsplash.it/504/504/">
+                                                          <div class="inner">
+                                                                <p>Rendann</p>
+                                    <span>Lorem ipsum</span>
+                                                          </div>
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="background-image: url(https://unsplash.it/505/505/)">
+                                                          <div class="inner">
+                                                                <p>Reflupper</p>
+                                    <span>Lorem ipsum</span>
+                                                          </div>
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="background-image: url(https://unsplash.it/506/506/)">
+                                                          <div class="inner">
+                                                                <p>Acirassi</p>
+                                    <span>Lorem ipsum</span>
+                                                          </div>
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                              <div class="container">
+                                                    <div class="front" style="background-image: url(https://unsplash.it/508/508/)">
+                                                          <div class="inner">
+                                                                <p>Sohanidd</p>
+                                    <span>Lorem ipsum</span>
+                                                          </div>
+                                                    </div>
+                                                    <div class="back">
+                                                          <div class="inner">
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                                          </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                  </div>
+                       </div>-->
+
+                <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-01.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-02.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-03.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-04.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-05.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-06.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-07.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-08.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div>
+                  <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                              <img src="img/1-09.png" alt="Cinque Terre" width="150" height="150">
+                        </a>
+                  </div> 
+
+                  <div class="dismiss-btn">
+                        <button id="dismiss-popup-btn">
+                              Dismiss
+                        </button>
+                  </div>
+            </div> 
+            
+      </div>
+
+      
+ 
+      </div>
+      
+
+    
+      <script src="script.js"></script>
+      
+</body>
+
+
+
+</html>
