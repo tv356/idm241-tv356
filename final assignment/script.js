@@ -1,5 +1,7 @@
-  var audioUrl = 'https://freewavesamples.com/files/Alesis-S4-Plus-SterMarimb-C4.wav';
-document.querySelector(".btn").click(() => new Audio(audioUrl).play());
+var audio = new Audio("https://freewavesamples.com/files/Alesis-S4-Plus-SterMarimb-C4.wav");
+document.onclick = function() {
+  audio.play();
+}
 
 document
   .getElementById("open-popup-btn")
