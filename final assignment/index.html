@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cheryl - Final Assignment</title>
+      <link rel="stylesheet" href="style.css">
+
+
+</head>
+  
+ 
+<body>
+      <!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+
+<body>
+      <div class="main">
+          <form>
+	<div class="input-container">
+		<input type="text" required=""/>
+		<label>Full Name</label>		
+	</div>
+	<div class="input-container">		
+		<input type="mail" required=""/>
+		<label>Email</label>
+            </div>
+</form>	
+            
+            <div class="btn">
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <audio id="song" src="" style="display:none;"></audio>
+               <button id="open-popup-btn">
+                        I'm Not A Robot
+                  </button>
+            </div>
+
+
+            
+      <div class="popup center">
+
+            <div class="title">
+                  Select all images with <span> "Food"</span>
+        </div>
+ 
+  <div>
+    <ul>
+  <div class="radio-btns" role="radiogroup">
+    <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image one">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox1">
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cdn-36_img-2.jpg">
+</label>
+    </div>
+
+    <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image two">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox2">
+      <img src="https://i.ibb.co/XxJLx9N/1-04.png" alt="Image description">
+      </label>
+    </div>
+
+    <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image three">
+      <input type="checkbox" id="myCheckbox1" />
+    <label for="myCheckbox1">
+       <img src="https://i.ibb.co/5rg2HfV/1-02.png" alt="Image description">
+      </label>
+    </div>
+  </div>
+      
+  <div class="radio-btns" role="radiogroup">
+   <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image one">
+<input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox1">
+  <img src="https://i.ibb.co/w0QqzHv/food2.jpg">
+</label>
+    </div>
+
+  
+     <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image one">
+<input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox1">
+  <img src="https://i.ibb.co/TLnLyqM/Processed-with-VSCOcam-with-hb2-preset.jpg">
+</label>
+    </div>
+
+    <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image three">
+      <input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox1">
+      <img src="https://i.ibb.co/dDtGBXB/Red-squirrel-Sciurus-vulgaris-seated-on-tree-trunk-while-animal-is-looking-curious-at-camera.jpg" alt="Image description">
+    </div>
+      </label>
+  </div>
+</div>
+ 
+  <div class="radio-btns" role="radiogroup">
+    <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image one">
+      <input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox1">
+      <img src="https://i.ibb.co/Z2tK0Wf/tree.jpg" alt="Image description">
+      </label>
+    </div>
+
+    <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image two">
+      <input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox1">
+      <img src="https://i.ibb.co/9Zs80Db/a-motorcycle-close-up-2021-08-29-00-51-40-utc.jpg" alt="Image description">
+      </label>
+    </div>
+
+    <div class="radio-btns__btn" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image three">
+      <input type="checkbox" id="myCheckbox1" />
+<label for="myCheckbox1">
+      <img src="https://i.ibb.co/qNtb65W/food3.jpg" alt="Image description">
+      </label>
+    </div>
+    </div>
+   
+
+                  <div class="dismiss-btn">
+                        <button id="dismiss-popup-btn">
+                              Dismiss
+                        </button>
+                  </div>
+            </div> 
+            
+      </div>
+ 
+      </div>
+
+           <div class="content">
+                   <h1>Final Build</h1>
+
+            <h3>TRIGGERS</h3>
+            <p>Users type in their information on the input box.
+            <br>Users click on the "I am not a robot" button.
+            <br>Users click on the "Dismiss" button.</p>
+
+            <h3>RULES</h3>
+            <p>The microinteraction can only be seen when users click the button.
+           <br>Users can double click on the images on the popup gallery to un-select.</p>
+
+            <h3>FEEDBACK</h3>
+            <p>When users click the button, the button's background change from black to white color and the text changes from white to black color.
+            <br>Then, a pop-up box shows up in the center, placing on top of the content box.
+            <br>Users hover on each image, the image turns to grayscale. 
+            <br>Users click to select, and an arrow appears on selected image.
+            <br>Users click "Dismiss" button, the popup box disappears.</p>
+
+                                                
+            <h3>LOOPS</h3>
+            <p>There are no loops in this microinteraction.</p>
+
+      
+            </div>
+            
+      </div>
+      
+      <div class="gif" role="radio" aria-checked="false" tabindex="-1" aria-label="Select image three">
+       
+        <style></style>
+      </div>
+      
+      
+      <script src="script.js"></script>
+      
+</body>
+
+
+
+</html>
